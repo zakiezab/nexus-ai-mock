@@ -46,7 +46,7 @@ export function AgentActivityPanel({
   highlightedRunId: string | null;
   highlightNonce: number;
 }) {
-  const [tab, setTab] = useState<PanelTab>("steps");
+  const [tab, setTab] = useState<PanelTab>("graph");
   const [minimized, setMinimized] = useState<Record<string, boolean>>({});
   const [maximizedRunId, setMaximizedRunId] = useState<string | null>(null);
   const [flashRunId, setFlashRunId] = useState<string | null>(null);
